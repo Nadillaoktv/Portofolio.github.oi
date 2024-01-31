@@ -1,0 +1,93 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+nav {
+    float: right;
+    margin-right: 100px;
+}
+
+nav li {
+    list-style-type: none;
+    float: left;
+    padding: 30px 40px ;
+}
+
+nav li:hover {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(138, 125, 111);
+    color: white;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.header-right {
+    float: left;
+    font-size: 40px;
+    padding: 14px;
+    margin-left: 100px;
+}
+
+header {
+    background-color: rgb(90, 87, 87);
+    width: 100%;
+    height: 80px;   
+    border-bottom: 4px solid rgb(20, 20, 48) ;
+    color: white;
+}
+
+main {
+    padding: 40px 60px;
+}
+
+.top-wrapper {
+    display: flex;
+}
+
+.profile h1 {
+    font-size: 30px;
+    letter-spacing: 2px;
+    padding-top: 20px;
+}
+
+.profile {
+    margin-top: 150px;
+    margin-left: 120px;
+    float: left;
+    box-shadow: 5px 5px 5px 5px black ;
+    border-radius: 10px;
+    height: 150px;
+    padding-left: 25px;
+    padding-right: 25px;
+    
+}
+
+img {
+    width: 260px;
+    height: 250px;
+    float: left;
+    margin-top: 50PX;
+    
+}
+ hr {
+    width: 100%;
+
+}
+
+footer {
+    background-color: rgb(90, 87, 87);
+    color: white;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 40px;
+    margin-top: 10%;
+}
+
+
